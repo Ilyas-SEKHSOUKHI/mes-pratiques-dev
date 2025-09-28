@@ -1,0 +1,38 @@
+Exercices Java - Problem Solving (Débutant)
+
+📌 Niveau Débutant (variables, conditions, affichage) 
+1. Pair ou impair
+Écrire un programme qui prend un entier et affiche s’il est pair ou
+impair.
+
+2.  Plus grand de deux nombres Lire deux entiers et afficher le plus
+    grand.
+
+3.  Table de multiplication Demander un nombre et afficher sa table de
+    multiplication (de 1 à 10).
+
+4.  Catégorie d’âge Améliorer ton code actuel : afficher “Enfant” (<12),
+    “Adolescent” (12–17), “Jeune adulte” (18–24), “Adulte” (25–59),
+    “Senior” (60+).
+
+📌 Niveau Intermédiaire (boucles, switch, calculs) 
+5. Somme des N
+premiers entiers Lire un nombre N et calculer la somme de 1 jusqu’à N.
+
+6.  Factorielle Écrire un programme qui calcule la factorielle d’un
+    nombre (ex: 5! = 120).
+
+7.  Calculatrice simple (switch) Demander deux nombres et une opération
+    (+, -, *, /) puis afficher le résultat.
+
+8.  Nombre premier Vérifier si un nombre donné est premier.
+
+📌 Niveau Avancé Débutant (tableaux, boucles imbriquées) 9. Moyenne des
+notes Demander à l’utilisateur d’entrer 5 notes et afficher la moyenne.
+
+10. Maximum dans un tableau Lire un tableau d’entiers et trouver le plus
+    grand élément.
+
+11. Triangle d’étoiles Afficher une forme en utilisant des boucles :
+
+    -    **
