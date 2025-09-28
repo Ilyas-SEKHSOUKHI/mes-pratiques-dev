@@ -27,7 +27,8 @@ premiers entiers Lire un nombre N et calculer la somme de 1 jusqu’à N.
 
 8.  Nombre premier Vérifier si un nombre donné est premier.
 
-📌 Niveau Avancé Débutant (tableaux, boucles imbriquées) 9. Moyenne des
+📌 Niveau Avancé Débutant (tableaux, boucles imbriquées) 
+9. Moyenne des
 notes Demander à l’utilisateur d’entrer 5 notes et afficher la moyenne.
 
 10. Maximum dans un tableau Lire un tableau d’entiers et trouver le plus
