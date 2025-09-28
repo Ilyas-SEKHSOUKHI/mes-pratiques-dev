@@ -92,14 +92,38 @@ public class FirstProject { // Class Principale
         for(int i=0;i<3;i++){
             System.out.println("test"+i); // afficher test 3 fois
         }
-    //-------- A CONTINUER COUR DE GRAVEN     
-
-
-
+    // la boucle foreach
+        String[] Matiere = new String[]{"MATH","ALGORITHME","OOP","SQL"}; // Tableaux de type string
+        for(String str : Matiere){ // Boucle pour afficher les element du tableaux
+            System.out.println(str); // affichage
+        }
+        /***********/
+        int[] Note = new int[]{10,14,15,20}; // Tableaux avec des element entier
+        int calcule=0;
+        for(int Notes : Note){ // Boucle pour afficher les element du tableaux
+            System.out.println(Notes); // Affichage
+            /* Calculer la moyen */
+            calcule = calcule + Notes; // la sommes des notes
+        }
+        System.out.println("La moyenne des notes = "+calcule/Note.length);
+        /*
+         * calcule/Note.length
+         * calcule = la var avec la somme des point
+         * Note.length = Combien d'element dans le tableaux
+         * calcule/Note.length = la moyenne
+         */
+    // la boucle while
+        int i = 0; // var de type int
+        while(i==7){ // une boucle avec la condition d'entrer
+            System.out.println("test"); // si i=7 test va se repeter +l'infinie
+        }
+    // la boucle do while()
+        do{ // cette boucle il sexecute au moin une fois 
+            System.out.println("test"); // si i !=0 test va se repeter +l'infinie
+        }while(i!=0); // condition de sortir
   }
 } 
 /*
  * Premier projet java 
  * pour appliquer les base
- * ilyas sekhsoukhi 27/09/2025
  */
