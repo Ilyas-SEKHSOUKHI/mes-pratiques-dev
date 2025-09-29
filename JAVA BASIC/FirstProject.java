@@ -123,10 +123,28 @@ public class FirstProject { // Class Principale
         }while(i!=0); // condition de sortir
     //Appelle de la fonction
         PremiereFonction();
+        Calc(); // Affiche 5
+        System.out.println(Calc()); //Affiche 5 la valeur print et Affiche 10 la valeur return
+        SommeFunc(5,2); // Pour afficher la somme
+        System.out.println(SoustractionFunc(12, 3));// pour afficher la soustraction
   }
   // Les Fonction
+  /*Premiere fonction avec une accessibilite private*/
   private static void PremiereFonction(){
     System.out.println("Test Fonction");
+  }
+  /*Deuxieme fonction de type int + accessibilite public*/
+  public static int Calc(){
+    System.out.println(5);
+    return 10;
+  }
+  /* Troisieme Fonction void qui calul le nombre de deux entier*/
+  public static void SommeFunc(int n1,int n2){
+    System.out.println(n1+n2);
+  }
+  /* Quatrieme Fonction de type int qui calcul la soustraction de deux nombre entier */
+  public static int SoustractionFunc(int n1,int n2){
+    return n1-n2;
   }
 } 
 /*
