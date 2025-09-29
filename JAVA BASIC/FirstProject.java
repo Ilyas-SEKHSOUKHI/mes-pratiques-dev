@@ -121,6 +121,12 @@ public class FirstProject { // Class Principale
         do{ // cette boucle il sexecute au moin une fois 
             System.out.println("test"); // si i !=0 test va se repeter +l'infinie
         }while(i!=0); // condition de sortir
+    //Appelle de la fonction
+        PremiereFonction();
+  }
+  // Les Fonction
+  private static void PremiereFonction(){
+    System.out.println("Test Fonction");
   }
 } 
 /*
