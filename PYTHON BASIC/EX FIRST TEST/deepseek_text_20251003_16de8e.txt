@@ -1,0 +1,94 @@
+# =============================================
+# EXERCICES PRATIQUES - PYTHON BASIQUE
+# =============================================
+
+## Exercice 1 : Calculatrice d'IMC
+'''
+Créez un programme qui calcule l'Indice de Masse Corporelle (IMC).
+- Demandez à l'utilisateur son poids (en kg) et sa taille (en m)
+- Calculez l'IMC avec la formule : IMC = poids / (taille²)
+- Affichez l'IMC et un message selon ces catégories :
+  - < 18.5 : "Maigreur"
+  - 18.5-25 : "Normal"
+  - 25-30 : "Surpoids"
+  - > 30 : "Obésité"
+'''
+
+## Exercice 2 : Gestion de budget
+'''
+Créez un programme de gestion de budget :
+- L'utilisateur entre son budget initial
+- Puis entre le prix de 3 produits qu'il souhaite acheter
+- Le programme calcule le total des achats
+- Affiche si le budget est suffisant ou non
+- Si suffisant, affiche le budget restant
+'''
+
+## Exercice 3 : Système de notes
+'''
+Créez un programme qui :
+- Demande à l'utilisateur d'entrer 3 notes (sur 20)
+- Calcule la moyenne
+- Affiche la moyenne et la mention :
+  - < 10 : "Échec"
+  - 10-14 : "Passable"
+  - 14-16 : "Bien"
+  - 16-18 : "Très bien"
+  - > 18 : "Excellent"
+'''
+
+## Exercice 4 : Convertisseur d'âge
+'''
+Créez un programme qui :
+- Demande l'âge de l'utilisateur
+- Convertit cet âge en :
+  - Mois
+  - Jours (approximatif : âge × 365)
+  - Heures (approximatif : jours × 24)
+- Affiche tous ces résultats
+'''
+
+## Exercice 5 : Jeu de devinette
+'''
+Créez un jeu où :
+- Le programme génère un nombre aléatoire entre 1 et 10
+- L'utilisateur doit deviner le nombre
+- Le programme donne des indices ("Plus" ou "Moins")
+- Affiche un message de félicitations quand c'est trouvé
+
+ASTUCE : Utilisez import random et random.randint(1, 10)
+'''
+
+## Exercice 6 : Calcul de réduction
+'''
+Créez un programme pour un magasin :
+- Demande le prix original d'un produit
+- Si le prix est > 100€, applique une réduction de 15%
+- Si le prix est entre 50€ et 100€, applique 10%
+- Si < 50€, pas de réduction
+- Affiche le prix final
+'''
+
+## Exercice 7 : Authentification simple
+'''
+Créez un système d'authentification :
+- Définissez un nom d'utilisateur et mot de passe fixes
+- Demandez à l'utilisateur de s'identifier
+- Vérifiez si les informations correspondent
+- Affichez un message de bienvenue ou d'erreur
+'''
+
+# =============================================
+# CONSEILS POUR RÉSOUDRE LES EXERCICES
+# =============================================
+
+'''
+1. Commencez par l'exercice 1 (le plus simple)
+2. Utilisez input() pour demander des informations
+3. Utilisez int() ou float() pour convertir les inputs numériques
+4. Utilisez des conditions if/elif/else pour les vérifications
+5. N'oubliez pas str() pour convertir les nombres en chaînes
+6. Utilisez print() avec format ou + pour afficher les résultats
+7. Testez votre code après chaque étape !
+
+BON COURAGE ! 🚀
