@@ -2,7 +2,7 @@
 print("Hello World") # Pour Afficher
 # Les Variable
 username = "ilyas" # var string
-age = 20 # var int
+age = 85 # var int
 wallet = 100.12 # var float
 isHappy = True # var Bool
 # Affichage des var 
@@ -17,4 +17,10 @@ Price = int(input("Entrez le prix du produit")) #pour que le user entre le prix
 TVA = (20*Price)/100 # on a transformer Pric en int pour l'inclure dans cette operation 
 Totale = Price-TVA
 print("le Nom du Produit "+ProductName+" le prix "+str(Price)+" la tva 20% "+str(TVA)+" le totale apres la tva "+str(Totale))
-
+#Les conditions
+if age<=20 :
+    print("Petit")
+elif age>20 and age<60 :
+    print("Adulte")
+else:
+    print("Vieux") 
