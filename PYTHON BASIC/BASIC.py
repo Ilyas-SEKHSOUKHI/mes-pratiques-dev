@@ -18,9 +18,20 @@ TVA = (20*Price)/100 # on a transformer Pric en int pour l'inclure dans cette op
 Totale = Price-TVA
 print("le Nom du Produit "+ProductName+" le prix "+str(Price)+" la tva 20% "+str(TVA)+" le totale apres la tva "+str(Totale))
 #Les conditions
+#Exemple 1
 if age<=20 :
     print("Petit")
 elif age>20 and age<60 :
     print("Adulte")
 else:
     print("Vieux") 
+#Exemple 2
+wallet = 500
+Prix_Produit = 20
+if wallet < Prix_Produit:
+    print("Euror")
+else:
+    print("Achat accepte")
+    wallet = wallet - Prix_Produit
+    print("la valeur de votre wallet = "+str(wallet))
+    print("la valeur de votre wallet = {}".format(wallet))
