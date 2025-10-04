@@ -8,5 +8,33 @@ Créez un jeu où :
 
 ASTUCE : Utilisez import random et random.randint(1, 10)
 '''
+import random
 print("--------Jeu De Devinette -----------")
+Numbre = int(input("Entrez un nombre"))  
+Aleatoire_Nombre = random.randint(1,10) # Donne un nombre aléatoire de type int
+print(Aleatoire_Nombre)
+Resultat = False
+while Numbre != Aleatoire_Nombre:
+    if(Numbre>Aleatoire_Nombre):
+        print("Mois")
+        Numbre = int(input("Entrez un nombre"))
+    else:
+        print("Plus")
+        Numbre = int(input("Entrez un nombre"))
+
+print("Bon Resultat")
+
+'''while Resultat == False:
+    if Numbre == Aleatoire_Nombre:
+        print("Good job")
+        Resultat = True
+        break
+    elif Numbre>Aleatoire_Nombre:
+        print("Moins")
+        Numbre = int(input("Entrez un nombre"))
+        break
+    else:
+        print("Plus")
+        Numbre = int(input("Entrez un nombre"))
+        break'''
 # A continue
