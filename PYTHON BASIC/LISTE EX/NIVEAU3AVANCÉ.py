@@ -50,4 +50,10 @@ print(nombres_set)  # Exemple de sortie : {1, 2, 3, 4, 5}
     • Parcours la liste avec une boucle for
     • Pour chaque élément, affiche sa valeur et son type
 '''
-#A Faire
+Liste = [42,"hello",3.14,True,"python"]
+for i in Liste:
+   print(f"{i}  {type(i)}")
+
+# for i in range(len(Liste)):
+#     print(Liste[i])
+#     print(type(Liste[i]))
