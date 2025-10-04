@@ -1,4 +1,4 @@
-#BASIC 
+'''#BASIC 
 print("Hello World") # Pour Afficher
 # Les Variable
 username = "ilyas" # var string
@@ -34,4 +34,29 @@ else:
     print("Achat accepte")
     wallet = wallet - Prix_Produit
     print("la valeur de votre wallet = "+str(wallet))
-    print("la valeur de votre wallet = {}".format(wallet))
+    print("la valeur de votre wallet = {}".format(wallet))'''
+#Les Listes
+Les_Etudiant = ["Ilyas","Aziz","Oussama"] # Cree une liste
+print(Les_Etudiant) # Afficher la liste
+print(Les_Etudiant[0]) # Afficher le premier element
+print(len(Les_Etudiant)) # Nombre d'element dans la liste
+print(Les_Etudiant[len(Les_Etudiant)-1]) # Afficher le dernier element
+#modification de element
+Les_Etudiant[0] = "Sekhsoukhi" # Modifier le premier element
+print(Les_Etudiant[0]) # Afficher l'element modifier
+#injecter une valeur
+Les_Etudiant.insert(2,"Saad") # injecter Saad avant oussama
+print(Les_Etudiant)
+# injecter une valeur a la fin de la liste 
+Les_Etudiant.append("Zakaria")
+print(Les_Etudiant)
+Les_Etudiant.extend(["Amira","Ranya"]) # ajouter + d'element au liste
+print(Les_Etudiant)
+# Delete un element 
+del Les_Etudiant[3] #sup oussama
+Les_Etudiant.pop(1) #sup aziz
+Les_Etudiant.remove("Amira")#sup Amira
+print(Les_Etudiant)
+# Sup Tout
+Les_Etudiant.clear()
+print(Les_Etudiant)
