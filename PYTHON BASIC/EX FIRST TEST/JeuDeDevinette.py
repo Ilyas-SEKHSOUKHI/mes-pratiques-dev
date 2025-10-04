@@ -24,17 +24,3 @@ while Numbre != Aleatoire_Nombre:
 
 print("Bon Resultat")
 
-'''while Resultat == False:
-    if Numbre == Aleatoire_Nombre:
-        print("Good job")
-        Resultat = True
-        break
-    elif Numbre>Aleatoire_Nombre:
-        print("Moins")
-        Numbre = int(input("Entrez un nombre"))
-        break
-    else:
-        print("Plus")
-        Numbre = int(input("Entrez un nombre"))
-        break'''
-# A continue
