@@ -1,0 +1,77 @@
+EXERCICES SUR LES LISTES PYTHON
+Niveau : Débutant → Intermédiaire
+
+🟢 NIVEAU 1 : BASES
+
+1. CRÉER ET ACCÉDER
+   • Crée une liste : fruits = ["pomme", "banane", "orange"]
+   • Affiche :
+     - Le premier fruit
+     - Le dernier fruit
+     - Le nombre total de fruits
+
+2. MODIFICATIONS DE BASE
+   • À partir de la liste de fruits :
+     - Ajoute "fraise" à la fin
+     - Ajoute "kiwi" au début
+     - Supprime "banane"
+     - Affiche la liste finale
+
+3. MODIFIER UN ÉLÉMENT
+   • Crée une liste de 3 pays
+   • Remplace le deuxième pays par "Maroc"
+   • Affiche la liste modifiée
+
+🟡 NIVEAU 2 : MANIPULATIONS
+
+4. CALCULS SUR LES NOMBRES
+   • Crée une liste de 5 nombres
+   • Calcule et affiche :
+     - La somme totale
+     - La moyenne
+     - Le plus grand nombre
+     - Le plus petit nombre
+
+5. RECHERCHE D'ÉLÉMENT
+   • Crée une liste d'étudiants : ["Alice", "Bob", "Charlie"]
+   • Demande à l'utilisateur d'entrer un nom
+   • Affiche "Présent" si le nom est dans la liste, sinon "Absent"
+
+6. TRI ET ORDRE
+   • Crée une liste de prénoms dans le désordre
+   • Trie-la par ordre alphabétique
+   • Inverse l'ordre de la liste
+   • Affiche les deux versions
+
+🔵 NIVEAU 3 : AVANCÉ
+
+7. FILTRAGE DE LISTE
+   • Crée une liste de prix : [120, 80, 45, 300, 150]
+   • Crée une nouvelle liste avec seulement les prix ≥ 100
+   • Affiche la liste filtrée
+
+8. FUSION DE LISTES
+   • Crée : A = [1, 2, 3] et B = [4, 5, 6]
+   • Fusionne A et B avec l'opérateur + (crée une nouvelle liste)
+   • Fusionne A et B avec extend() (modifie A)
+   • Affiche les résultats
+
+9. SUPPRIMER LES DOUBLONS
+   • Crée : nombres = [1, 2, 2, 3, 4, 4, 5]
+   • Supprime tous les doublons
+   • Affiche la liste sans répétitions
+
+10. LISTE MIXTE
+    • Crée une liste avec différents types :
+      [42, "hello", 3.14, True, "python"]
+    • Parcours la liste avec une boucle for
+    • Pour chaque élément, affiche sa valeur et son type
+
+---
+CONSEILS :
+- Utilise print() pour afficher tes résultats
+- Teste chaque exercice séparément
+- Vérifie tes résultats avec des valeurs connues
+- N'hésite pas à expérimenter !
+
+Bon courage ! 🚀
