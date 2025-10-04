@@ -48,3 +48,21 @@ if Pr == True:
     print("Present")
 else:
     print("Absent")
+
+#EX6
+'''
+6. TRI ET ORDRE
+   • Crée une liste de prénoms dans le désordre
+   • Trie-la par ordre alphabétique
+   • Inverse l'ordre de la liste
+   • Affiche les deux versions
+'''
+Prenoms = ["Ilyas","Amine","Saad","Oussama"]
+print(Prenoms)
+# Trie la liste par ordre alphabétique (modifie la liste originale)
+Prenoms.sort()
+print(Prenoms)
+# Inverse l'ordre de la liste
+Prenoms.reverse()
+print(Prenoms)
+#EX6 A Reviser
