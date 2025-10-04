@@ -41,3 +41,13 @@ nombres_set = set(nombres) # set sup tout les double
 print(nombres)
 print(nombres_set)  # Exemple de sortie : {1, 2, 3, 4, 5}
 # A Reviser
+
+#EX10
+'''
+10. LISTE MIXTE
+    • Crée une liste avec différents types :
+      [42, "hello", 3.14, True, "python"]
+    • Parcours la liste avec une boucle for
+    • Pour chaque élément, affiche sa valeur et son type
+'''
+#A Faire
