@@ -35,7 +35,7 @@ else:
     wallet = wallet - Prix_Produit
     print("la valeur de votre wallet = "+str(wallet))
     print("la valeur de votre wallet = {}".format(wallet))'''
-#Les Listes
+'''#Les Listes
 Les_Etudiant = ["Ilyas","Aziz","Oussama"] # Cree une liste
 print(Les_Etudiant) # Afficher la liste
 print(Les_Etudiant[0]) # Afficher le premier element
@@ -59,4 +59,17 @@ Les_Etudiant.remove("Amira")#sup Amira
 print(Les_Etudiant)
 # Sup Tout
 Les_Etudiant.clear()
-print(Les_Etudiant)
+print(Les_Etudiant)'''
+#Les Boucles
+# boucle for
+for Num_Client in range(1,6):
+    print("Client N "+str(Num_Client))
+# boucle for each : 
+Emails = ["ilyas@gameil.com","Sekhsoukhi@gmai.com","Aziz@gamil.com"]
+for email in Emails:
+    print("Publier a : ",email)
+# boucle while
+Num = 0
+while Num !=5: #condition Vrai donc il continue
+    print("test")
+    Num = Num + 1 
