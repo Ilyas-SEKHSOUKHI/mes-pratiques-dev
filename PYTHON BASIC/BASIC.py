@@ -1,4 +1,4 @@
-'''#BASIC 
+#BASIC 
 print("Hello World") # Pour Afficher
 # Les Variable
 username = "ilyas" # var string
@@ -34,8 +34,8 @@ else:
     print("Achat accepte")
     wallet = wallet - Prix_Produit
     print("la valeur de votre wallet = "+str(wallet))
-    print("la valeur de votre wallet = {}".format(wallet))'''
-'''#Les Listes
+    print("la valeur de votre wallet = {}".format(wallet))
+#Les Listes
 Les_Etudiant = ["Ilyas","Aziz","Oussama"] # Cree une liste
 print(Les_Etudiant) # Afficher la liste
 print(Les_Etudiant[0]) # Afficher le premier element
@@ -59,7 +59,7 @@ Les_Etudiant.remove("Amira")#sup Amira
 print(Les_Etudiant)
 # Sup Tout
 Les_Etudiant.clear()
-print(Les_Etudiant)'''
+print(Les_Etudiant)
 #Les Boucles
 # boucle for
 for Num_Client in range(1,6):
