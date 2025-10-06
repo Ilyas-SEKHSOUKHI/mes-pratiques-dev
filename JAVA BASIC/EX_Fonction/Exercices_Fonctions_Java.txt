@@ -1,0 +1,51 @@
+
+Exercices sur les fonctions en Java
+====================================
+
+1. Fonction simple
+------------------
+Écris une fonction `bonjour()` qui affiche "Bonjour le monde !"
+Appelle cette fonction depuis la méthode `main`.
+
+2. Fonction avec paramètre
+--------------------------
+Écris une fonction `saluer(String nom)` qui affiche "Bonjour " suivi du nom passé en paramètre.
+
+3. Fonction avec valeur de retour
+---------------------------------
+Écris une fonction `addition(int a, int b)` qui retourne la somme des deux entiers.
+
+4. Fonction pour calculer une moyenne
+-------------------------------------
+Écris une fonction `moyenne(double n1, double n2, double n3)` qui retourne la moyenne des trois nombres.
+
+5. Fonction pour vérifier la parité
+-----------------------------------
+Écris une fonction `estPair(int n)` qui retourne `true` si le nombre est pair, sinon `false`.
+
+6. Fonction avec boucle
+-----------------------
+Écris une fonction `compter(int n)` qui affiche les nombres de 1 à n.
+
+7. Fonction récursive
+---------------------
+Écris une fonction `factorielle(int n)` qui calcule la factorielle d’un nombre (n!).
+
+8. Fonction pour trouver le maximum
+-----------------------------------
+Écris une fonction `maximum(int a, int b, int c)` qui retourne le plus grand des trois nombres.
+
+9. Fonction avec tableau
+------------------------
+Écris une fonction `sommeTableau(int[] tab)` qui retourne la somme de tous les éléments du tableau.
+
+10. Fonction principale avec menu
+---------------------------------
+Écris un petit programme qui propose un menu :
+1. Addition
+2. Moyenne
+3. Factorielle
+L'utilisateur choisit une option, entre les valeurs nécessaires, et le programme appelle la fonction correspondante.
+
+------------------------------------
+Bon courage et amuse-toi bien ! 💪

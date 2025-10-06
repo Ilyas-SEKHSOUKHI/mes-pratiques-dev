@@ -1,3 +1,4 @@
+
 /*show databases ;*/ --Pour Afficher les databases existe dans le pc n’existe pas dans PostgreSQL
 CREATE DATABASE Test ; --Pour Cree une DB
 --show databases ;
