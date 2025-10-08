@@ -1,0 +1,38 @@
+EXERCICES SUR LES FONCTIONS EN PYTHON
+
+1. Fonction simple
+Crée une fonction saluer() qui affiche :
+"Bonjour et bienvenue dans le monde Python !"
+
+2. Fonction avec paramètre
+Crée une fonction bonjour(nom) qui affiche :
+"Salut [nom], comment vas-tu ?"
+
+3. Fonction avec retour de valeur
+Crée une fonction carre(nombre) qui retourne le carré du nombre passé en paramètre.
+Exemple : carre(4) → 16
+
+4. Somme de deux nombres
+Crée une fonction addition(a, b) qui retourne la somme de a et b.
+Appelle la fonction et affiche le résultat.
+
+5. Vérification pair ou impair
+Crée une fonction pair_ou_impair(n) qui affiche si le nombre est pair ou impair.
+
+6. Calcul de moyenne
+Crée une fonction moyenne(note1, note2, note3) qui calcule et retourne la moyenne de trois notes.
+Si la moyenne ≥ 10 → “Admis”, sinon → “Échoué”.
+
+7. Factorielle
+Crée une fonction factorielle(n) qui calcule la factorielle d’un nombre à l’aide d’une boucle.
+
+8. Fonction avec liste
+Crée une fonction afficher_liste(liste) qui affiche chaque élément de la liste sur une ligne différente.
+
+9. Plus grand nombre
+Crée une fonction max3(a, b, c) qui retourne le plus grand des trois nombres.
+
+10. Fonction principale (main)
+Crée une fonction main() qui demande à l’utilisateur d’entrer deux nombres,
+puis affiche la somme, la différence, le produit et le quotient,
+en appelant des fonctions séparées pour chaque opération.

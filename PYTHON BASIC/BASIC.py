@@ -1,4 +1,4 @@
-'''
+
 #BASIC 
 print("Hello World") # Pour Afficher
 # Les Variable
@@ -74,7 +74,7 @@ Num = 0
 while Num !=5: #condition Vrai donc il continue
     print("test")
     Num = Num + 1 
-'''
+
 #Les Fonctions
 def welcome_message(): # la fonction
     print("welcome")
