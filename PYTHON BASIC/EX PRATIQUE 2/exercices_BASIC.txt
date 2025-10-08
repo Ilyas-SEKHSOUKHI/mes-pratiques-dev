@@ -1,0 +1,47 @@
+EXERCICES DE BASE PYTHON
+
+1. Affichage et variables
+- Crée trois variables : nom, ville, age.
+- Affiche une phrase du style :
+  "Bonjour [nom], tu habites à [ville] et tu as [age] ans."
+
+2. Calcul simple
+- Demande à l’utilisateur d’entrer deux nombres.
+- Calcule et affiche leur somme, différence, produit et quotient.
+
+3. Condition simple
+- Demande à l’utilisateur d’entrer son âge.
+- Si l’âge < 18 → affiche “Mineur”,
+  sinon → affiche “Majeur”.
+
+4. Gestion de stock
+- Demande le nom d’un produit et sa quantité.
+- Si la quantité = 0 → affiche “Rupture de stock”,
+  sinon → affiche “Produit disponible”.
+
+5. Liste d’étudiants
+- Crée une liste avec 4 prénoms.
+- Affiche le premier et le dernier prénom.
+- Ajoute un nouveau prénom à la fin et affiche la nouvelle liste.
+
+6. Boucle for
+- Affiche les nombres de 1 à 10.
+- Puis affiche seulement les nombres pairs.
+
+7. Boucle while
+- Demande à l’utilisateur un mot de passe jusqu’à ce qu’il entre "admin123".
+- Une fois correct, affiche "Accès autorisé".
+
+8. Mini-calculatrice
+- Demande à l’utilisateur de choisir une opération (+, -, *, /).
+- Demande deux nombres et affiche le résultat.
+
+9. Moyenne des notes
+- Demande à l’utilisateur d’entrer 3 notes (dans une liste).
+- Calcule et affiche la moyenne.
+- Si moyenne ≥ 10 → “Admis”, sinon “Échoué”.
+
+10. Liste dynamique
+- Crée une liste vide.
+- Demande à l’utilisateur d’ajouter 5 noms (avec append()).
+- Affiche la liste finale.
