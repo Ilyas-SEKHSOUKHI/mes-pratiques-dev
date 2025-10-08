@@ -1,3 +1,4 @@
+'''
 #BASIC 
 print("Hello World") # Pour Afficher
 # Les Variable
@@ -73,3 +74,16 @@ Num = 0
 while Num !=5: #condition Vrai donc il continue
     print("test")
     Num = Num + 1 
+'''
+#Les Fonctions
+def welcome_message(): # la fonction
+    print("welcome")
+    print("Test")
+
+welcome_message() # appelation de la fonction
+#-----------exemple 2---------------
+def somme(a,b):
+    print(a+b)
+c = 1
+d = 5
+somme(c,d)
