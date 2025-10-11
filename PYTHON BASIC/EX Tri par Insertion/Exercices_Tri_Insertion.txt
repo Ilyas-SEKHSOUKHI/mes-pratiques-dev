@@ -1,0 +1,71 @@
+Série d'exercices Python : Tri par insertion
+
+------------------------------------------------------
+Exercice 1 — Tri simple
+------------------------------------------------------
+Écris une fonction tri_insertion(tab) qui trie une liste d’entiers en ordre croissant sans utiliser sort().
+
+Exemple :
+Entrée : [5, 2, 4, 6, 1, 3]
+Sortie attendue : [1, 2, 3, 4, 5, 6]
+
+
+------------------------------------------------------
+Exercice 2 — Affichage étape par étape
+------------------------------------------------------
+Modifie ta fonction pour afficher la liste après chaque insertion afin d’observer les étapes du tri.
+
+Exemple :
+Étape 1 : [2, 5, 4, 6, 1, 3]
+Étape 2 : [2, 4, 5, 6, 1, 3]
+...
+
+
+------------------------------------------------------
+Exercice 3 — Tri décroissant
+------------------------------------------------------
+Adapte ton code pour que la liste soit triée du plus grand au plus petit.
+
+Exemple :
+Entrée : [5, 2, 4, 6, 1, 3]
+Sortie attendue : [6, 5, 4, 3, 2, 1]
+
+
+------------------------------------------------------
+Exercice 4 — Comptage des déplacements
+------------------------------------------------------
+Ajoute un compteur pour compter combien de déplacements d’éléments ont été faits pendant le tri,
+et affiche le résultat à la fin.
+
+Exemple attendu :
+Nombre total de déplacements : 8
+
+
+------------------------------------------------------
+Exercice 5 — Tri de chaînes de caractères
+------------------------------------------------------
+Modifie ton algorithme pour trier une liste de mots en ordre alphabétique.
+
+Exemple :
+Entrée : ["chat", "chien", "oiseau", "rat"]
+Sortie attendue : ["chat", "chien", "oiseau", "rat"]
+
+
+------------------------------------------------------
+Exercice 6 — Comparer avec sorted()
+------------------------------------------------------
+Teste ton tri et compare le résultat avec la fonction Python intégrée sorted().
+
+print(tri_insertion(tab))
+print(sorted(tab))
+
+
+------------------------------------------------------
+Exercice 7 — Listes aléatoires
+------------------------------------------------------
+Génère une liste aléatoire avec random.randint() et applique ton tri.
+
+Exemple :
+import random
+tab = [random.randint(0, 100) for i in range(10)]
+print(tri_insertion(tab))
