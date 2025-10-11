@@ -18,6 +18,7 @@ def Tri_Par_Insertion(tab):
             tab[j+1]=tab[j]
             j-=1
         tab[j+1]=element
+        print(tab)
     return tab
 
 liste = [2,5,4,6,1,3]
