@@ -1,4 +1,3 @@
-
 #BASIC 
 print("Hello World") # Pour Afficher
 # Les Variable
@@ -87,3 +86,24 @@ def somme(a,b):
 c = 1
 d = 5
 somme(c,d)
+#Class / Constractor / Methode
+class Player: #class
+    def __init__(self,pseudo,health,attack): # Constractor
+        self.pseudo = pseudo
+        self.health = health
+        self.attack = attack
+        print(pseudo,health,attack) # Affichage des info de Player 1/2
+    def get__pseudo(self): # Methode
+        return self.pseudo
+    def get__health(self): # Methode
+        return self.health
+    def get__attack(self): # Methode
+        return self.attack
+
+Player1 = Player("ilyas",20,5)
+Player2 = Player("amira",20,2)
+print(Player1) # Ne marche pas
+print(Player2) # Ne marche pas
+print(Player1.get__pseudo()) # Affiche le pseudo du player1
+print(Player1.get__health()) # Affiche le health du player1
+print(Player1.get__attack()) # Affiche le attack du player1
